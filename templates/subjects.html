@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="row">
+  <div class="col-lg-12">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Subject Table<a type="button" class="badge float-right badge-light"
+            href="add_s">Add New</a></h5>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <!-- <th scope="col">ID</th> -->
+                <th scope="col">Subject</th>
+                <th scope="col">Stream</th>
+                <th scope="col">Semester</th>
+                <th colspan="2" scope="col">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <!-- <th scope="row">1</th> -->
+                <td>Subject1</td>
+                <td>Computer Science</td>
+                <td>4</td>
+                <td><a href="edit_subject" type="button" class="badge float-left badge-light">Edit</a></td>
+                <td><a href="" type="button" class="badge float-left badge-light">Delete</a></td>
+              </tr>
+
+              <!-- <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Larry</td>
+                      <td>the Bird</td>
+                      <td>@twitter</td>
+                    </tr> -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
