@@ -1,2 +1,2 @@
 # College-management
-College management project with flask (python) as backend
+College management website with flask (python) as backend
